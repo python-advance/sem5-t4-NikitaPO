@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import math
     
-df = pd.read_csv('data1.tsv', sep='\t', header=None)
+df = pd.read_csv('data.tsv', sep='\t', header=None)
 
 X, Y = df[0], df[1]
 
